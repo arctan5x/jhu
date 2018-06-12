@@ -15,7 +15,6 @@ def insertion_sort(lst):
 if __name__ == "__main__":
 	# some tests
 	lst1 = [2, 1, 34, 3, 6, 2, 4, 7]
-	print insertion_sort(lst1) 
 	print insertion_sort(lst1) == [1, 2, 2, 3, 4, 6, 7, 34]
 	lst2 = []
 	print insertion_sort(lst2) == []
